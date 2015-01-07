@@ -19,8 +19,7 @@ setup(
     description = "Piston is a Django mini-framework creating APIs.",
     author = 'Jesper Noehr',
     author_email = 'jesper@noehr.org',
-    packages = find_packages(),
-    namespace_packages = ['piston'],
+    packages = find_packages(),    
     include_package_data = True,
     zip_safe = False,
     classifiers = [
